@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.alineacion {
+    margin: 0 6rem;
+}
+
+@media (max-width: 767px) {
+    .alineacion {
+        margin: 0 2rem;
+    }
+        
+}
+.contenidoprincipal, .testimonios {
+    align-items: center;
+}
+.productos {
+    margin: 8rem 0;
+}
+.reseña {
+    background-color: white;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .reseña{
+        background-color: #F9FAFB;
+        
+    }
+    .productos .preguntas{
+        background-color: #F9FAFB;
+    }
+
+}
+
+.numeros {
+    background-color: #F9FAFB;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.numeros h2 {
+    font-weight: 600;
+    color: #1570EF;
+}
+
+.slide{
+    align-items: flex-end;
+}
+
+.flecha {
+    width: 14px;
+    height: 14px;
+    margin: 0 1rem;
+}
+.preguntas {
+    background-color: #F9FAFB;
+    margin: 2rem 5rem;
+    padding: 2rem 5rem;
+}
+.footer {
+    width: 100%;
+    background-color: #1D2939;
+    color: white;
+    padding: 3rem 6rem;;
+}
